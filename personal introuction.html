@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吳銘峻C111156106</title>
+</head>
+<style>
+    body{background: beige}
+    h1.front{font-family: Arial, Helvetica, sans-serif;}
+    #text1{font-size:XX-large;font-weight: bold;font-style: oblique; text-align: justify; word-spacing: 5px; text-decoration: underline;color:goldenrod;}
+    #text2{font-size:X-large;font-weight: normal;font-style: oblique; text-align: justify; word-spacing: 5px; text-decoration: underline;color:darkblue;}
+    #text3{font-size:larger;font-weight: normal;font-style: normal; text-align: justify; word-spacing: 5px; text-decoration:gainsboro;color:darkcyan;}
+    
+</style>
+<body>
+    <img style="float:right " src="是我.jpg" width="250" height="310" >
+    <h1 style="color:green"><strong>吳銘峻(Jimmy Wu)</strong></h1>
+    <br>
+    Undergrad Students
+    <br>
+    <a href="https://ic.nkust.edu.tw/" tarket="_blank">Department of Intelligent Commerce<br></a>
+    <a href="https://www.nkust.edu.tw/" tarket="_blank">National Kaohsiung University of Science And Technology</a>
+    <br>
+    <h4>聯絡方式</h4><a href="https://mail.google.com/mail/u/0/#inbox" tarket="_parent"><img src="gmail.png" data-on-hover="gmail.png" width="60" height="60" id="image"></a>
+    <a href="https://www.facebook.com/profile.php?id=100000301188624" target="_parent"><img src="FB.png" data-on-hover="FB.png" width="60" height="60" id="image"></a>
+    <hr>
+    <h2 id="text1">Research Interests</h2>
+    <li id="text3">Accounting and Manual </li>
+    <li id="text3">Law</li>
+    <li id="text3">Glossary of Chinese</li>
+    <li id="text3">Computer Sofeware Application</li>
+    <hr>
+    <h2 id="text1">Biography</h2>
+    <h3 id="text2">Date of Birth/Sign</h3>
+    <li id="text3">2003-09-08/Taurus</li>
+    <h3 id="text2">Country</h3>
+    <li id="text3">Taiwan Tainan</li>
+    <h3 id="text2">Family group</h3>
+    <li id="text3">Father</li>
+    <li id="text3">Mother</li>
+    <li id="text3">Two brothers</li>
+    <h3 id="text2">Hobby</h3>
+    <li id="text3">Play basketball</li>    
+    <li id="text3">Play badminton</li>
+    <li id="text3">Read novels</li>
+    <li id="text3">Listening to music</li>
+    <h3 id="text2">Loved Singer</h3>
+    <li id="text3">Miu Chu</li>
+    <li id="text3">Ariel Tsai</li>
+    <li id="text3">Ivy Li</li>
+    <h3 id="text2">Education</h3>
+    <li id="text3">Data processing,National Hsinhua Industrial Vocational High School,Taiwan,R O C. 2018-2021</li>
+    <li id="text3">Kang Ming Senior High School,Taiwan,R O C. 2015-2017 </li>
+    <li id="text3">Xin-Yi Elementary School,Taiwan,R O C. 2018-2014 </li>
+    <hr>
+    <h2 id="text1">Awards</h2>
+    <li id="text3">2022年參加全國高級中等學校專題製作比賽榮獲優等獎</li>
+    <li id="text3">2021年參加中學生閱讀心得比賽榮獲優勝</li>
+    <li id="text3">2021年參加全國高級中等學校商業類學生技藝競賽-商業簡報第58名</li>
+    <li id="text3">2020年參加投資競賽榮獲佳作</li>
+    <script>
+    const element = document.getElementById("image");
+    let previousImageUrl = null;
+    element.addEventListener("mouseenter", () => {
+    previousImageUrl = element.src;
+    element.src = element.dataset.onHover;
+    });
+        
+    element.addEventListener("mouseleave", () => {
+    element.src = previousImageUrl;
+    previousImageUrl = null;
+    });
+        
+    </script>
+
+</body>
+</html>
